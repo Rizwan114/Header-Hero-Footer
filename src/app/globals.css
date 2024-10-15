@@ -1,0 +1,109 @@
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+
+
+/*  78999999999999999999999999999999999999999999999999000 */
+
+
+.Link{
+  text-align: right;
+  /* justify-content: space-between; */
+  color: aqua;
+  background-color: #0a0a0a;
+  padding: 20px;
+  
+}
+.Link:hover{
+  color: cornflowerblue;
+
+}
+.Swift{
+  display: flex;
+  color: rgb(231, 240, 50);
+  font-size:xx-large;
+  background-color: #171717;
+  
+}
+
+
+/* 94888888888888888888888888888888888888888888888888888888 */
+
+
+.Footer{
+  text-align: center;
+  background-color: #0a0a0a;
+  color: rgb(3, 3, 3);
+  font-size: small;
+  font-family:serif;
+  bottom: 0;
+  position: relative;
+  width: 100;
+  /* padding: 15px; */
+  background-image: url(https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&w=600);
+  font-size: larger;
+
+}
+
+.Hero{
+  text-align: center;
+  font-size: medium;
+  background-color: rgb(169, 168, 167);
+  color:tomato;
+  
+}
+
+
+.hparah{
+  background-color: beige;
+  text-align: center;
+  color:snow;
+  background-image : url(https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) ;
+  
+}
+
+.h3{
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
